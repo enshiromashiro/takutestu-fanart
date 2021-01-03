@@ -1,0 +1,18 @@
+{
+  "name": "takutetsu-stg",
+  "version": "1.0.0",
+  "description": "TakuTestu shooter fanart",
+  "main": "dist/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html",
+    "start": "parcel serve index.html"
+  },
+  "author": "enshiromashiro",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-inliner": "^1.0.14",
+    "phaser": "^3.50.0"
+  }
+}
